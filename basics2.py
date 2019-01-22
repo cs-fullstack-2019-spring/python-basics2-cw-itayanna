@@ -1,7 +1,7 @@
 def main():
     #problem1()
     #problem2()
-    #problem3()
+    problem3()
     #problem4()
 
 
@@ -19,8 +19,9 @@ def problem2():
 def problem3():
     uI= ""
     while uI!="0":
-        uI= input('Enter va positive number. Enter a 0 to quit ')
-        print(uI+str(0))
+        uI= int(input('Enter va positive number. Enter a 0 to quit '))
+        for x in range(0,(uI+1)):
+            print(x)
 
 def problem4():
     import random
